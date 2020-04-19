@@ -1,20 +1,20 @@
 package com.leyou.item.mapper;
 
 import com.leyou.item.pojo.Category;
+import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
 import tk.mybatis.mapper.common.Mapper;
-import tk.mybatis.spring.annotation.MapperScan;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+
+import java.util.List;
 
 public interface CategoryMapper extends Mapper<Category> {
-    @SpringBootApplication
-    @EnableDiscoveryClient
-    @MapperScan("com.leyou.item.mapper") // mapper接口的包扫描
-    public class LeyouItemServiceApplication {
 
-        public static void main(String[] args) {
-            SpringApplication.run(LeyouItemServiceApplication.class, args);
-        }
-    }
+    @Select("SELECT * FROM tb_category WHERE parent_id = #{pid} ")
+    List<Category> queryByPid(@Param("pid") Long pid);
+
+//    @Select("SELECT * FROM tb_category WHERE id IN (SELECT category_id FROM tb_category_brand WHERE brand_id = #{bid}) ")
+//    List<Category> queryByBrandId(@Param("bid") Long bid);
+
+
 }

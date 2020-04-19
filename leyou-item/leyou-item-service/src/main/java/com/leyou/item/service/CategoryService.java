@@ -23,8 +23,6 @@ public class CategoryService {
      * @return
      */
     public List<Category> queryCategoriesByPid(Long pid) {
-        Category record = new Category();
-        record.setParentId(pid);
-        return this.categoryMapper.select(record);
+        return this.categoryMapper.queryByPid(pid);
     }
 }
