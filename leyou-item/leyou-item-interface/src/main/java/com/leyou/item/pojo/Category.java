@@ -1,14 +1,15 @@
 package com.leyou.item.pojo;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
+import tk.mybatis.mapper.annotation.KeySql;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Table(name="tb_category")
 public class Category {
+
+    //@GeneratedValue(strategy= GenerationType.IDENTITY)
     @Id
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    @KeySql(useGeneratedKeys=true)
     private Long id;
     private String name;
     private Long parentId;
@@ -43,8 +44,8 @@ public class Category {
         return isParent;
     }
 
-    public void setIsParent(Boolean parent) {
-        isParent = parent;
+    public void setIsParent(Boolean isParent) {
+        this.isParent = isParent;
     }
 
     public Integer getSort() {
