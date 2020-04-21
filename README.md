@@ -12,7 +12,7 @@
 
 ### 1.2.Architecture
 - Overall Architecture     
-![1525703759035](https://github.com/Eryn-mk/leyou/raw/photos/1525703759035.png)
+![1525703759035](https://github.com/Eryn-mk/leyou/blob/master/raw/photos/1525703759035.png)
 
 - Leyou Management System：
 
@@ -23,7 +23,7 @@
     - Permission Controls: JWT with encryption
     - Statistics Dashboard
   - Frontend: A single page app with Vue.js and Vuetify
-  - ![1573821246869](https://github.com/Eryn-mk/leyou/raw/photos/1573821246869.png)
+  - ![1573821246869](https://github.com/Eryn-mk/leyou/blob/master/raw/photos/1525704185158.png)
 
 - Leyou Shopping Website
   - Client-side functions
@@ -32,7 +32,7 @@
     - Placing an order
     - Writing a product review
   - Frontend: Thymeleaf template engine
-  - ![1573821296666](https://github.com/Eryn-mk/leyou/raw/photos/20191115_leyou/README/1573821296666.png)
+  - ![1573821296666](https://github.com/Eryn-mk/leyou/blob/master/raw/photos/1525704277126.png)
 
 
 
@@ -81,7 +81,7 @@ Backend：
 
 ### 3.1.Database
 
-[leyou.sql](https://github.com/Eryn-mk/leyou/raw/db/leyou.sql)
+[leyou.sql](https://github.com/Eryn-mk/leyou/blob/master/raw/db/leyou.sql)
 
 
 
