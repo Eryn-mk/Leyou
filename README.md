@@ -23,7 +23,7 @@
     - Permission Controls: JWT with encryption
     - Statistics Dashboard
   - Frontend: A single page app with Vue.js and Vuetify
-  - ![1573821246869](https://github.com/Eryn-mk/leyou/raw/photos/1573821246869.png)
+  - ![1573821246869](/raw/photos/1573821246869.png)
 
 - Leyou Shopping Website
   - Client-side functions
@@ -32,7 +32,7 @@
     - Placing an order
     - Writing a product review
   - Frontend: Thymeleaf template engine
-  - ![1573821296666](https://github.com/Eryn-mk/leyou/raw/photos/20191115_leyou/README/1573821296666.png)
+  - ![1573821296666](/raw/photos/1573821296666.png)
 
 
 
@@ -81,7 +81,7 @@ Backend：
 
 ### 3.1.Database
 
-[leyou.sql](https://github.com/Eryn-mk/leyou/raw/db/leyou.sql)
+[leyou.sql](/raw/db/leyou.sql)
 
 
 
