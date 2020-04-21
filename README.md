@@ -25,6 +25,7 @@
   - Frontend: A single page app with Vue.js and Vuetify
   - ![1573821246869](https://github.com/Eryn-mk/leyou/blob/master/raw/photos/1525704185158.png)
 
+
 - Leyou Shopping Website
   - Client-side functions
     - Searching a product
@@ -33,6 +34,7 @@
     - Writing a product review
   - Frontend: Thymeleaf template engine
   - ![1573821296666](https://github.com/Eryn-mk/leyou/blob/master/raw/photos/1525704277126.png)
+
 
 
 
@@ -82,8 +84,6 @@ Backend：
 ### 3.1.Database
 
 [leyou.sql](https://github.com/Eryn-mk/leyou/blob/master/raw/db/leyou.sql)
-
-
 
 ### 3.2.Configurations
 
